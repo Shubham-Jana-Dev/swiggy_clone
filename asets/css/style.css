@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.con1{
+    height: 112vh;
+    width: 100vw;
+    background-color: #FF5200;
+}
+.navbar{
+    height:16vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+     /* justify-content: space-between;  */
+    align-items: center;
+}
+.leftnavbar{
+    height:16vh;
+    width:48%;
+    display: flex;
+    align-items: center;
+    
+}
+.leftnavbar img{
+    height:6.5vh;
+    width:10vw;
+    align-items: center;
+    padding-left:150px;
+    
+}
+.rightnavbar{
+    height:16vh ;
+    width:52%;
+    display: flex;
+    gap:4%;
+    align-items: center;
+    /* padding-left:20px; */
+
+}
+.rightnavbar a {
+    text-decoration:none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    font-family: "Gill Sans", sans-serif;
+}
+.rightnavbar .btn1 button{
+    height:7.5vh;
+    width:10vw;
+    background-color: #FF5200;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 0.90em;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.rightnavbar .btn2 button{
+    height:7.5vh;
+    width: 8.8vw;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    border-radius: 15px;
+    font-size: 0.90em;
+    font-family: "Gill Sans", sans-serif;
+    border: none;
+
+}
+.rightnavbar .btn1 button i{
+    rotate:310deg;
+}
+.mid{
+    height:70vh;
+    width: 100vw;
+    display: flex;
+}
+.upper{
+    height:30vh;
+    width:100vw;
+    display:flex;
+}
+.s1img{
+    height: 15vh;
+    width:30%;
+}
+
+.s2img{
+    height: 15vh;
+    width:30%;
+    position: relative;
+    right: 0;
+}
+.upper .s1img img{
+    height:68vh;
+    width:16vw;
+    
+}
+.upper .s2img img{
+    height: 68vh;
+    width: 16vw;
+    position: relative;
+    left:122px;
+}
+h1{
+    width:65%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ;
+}
+.upper h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    /* left:45px; */
+    font-size:bold;
+
+
+}
+/* select{
+    height:60px;
+    width:20%;
+    position: relative;
+    bottom:30px;
+    left:350px;
+    border-radius: 15px;
+    border: none; 
+}*/
+ input{
+    height:60px ;
+    width:32%;
+    position: relative;
+    bottom:22px;
+    left:300px;
+    border-radius: 15px;
+    border: none; 
+}
+.lower{
+    height:70vh;
+    width: 100%;
+    display: flex;
+    gap:4%;
+    /* justify-content: space-betw; */
+
+}
+.lower .imgd1,.imgd2,.imgd3{
+    height:380px;
+    width: 345px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    position: relative;
+    left:10%;
+    display:flex;
+    
+
+    
+}
+input i{
+    position: relative;
+    top:20px;
+}
+input::placeholder{
+    font-size:1.2rem;
+    /* font-family: ; */
+    font-family:bold;
+    color: grey;
+
+
+}
+ #f{
+    width:21%;
+    /* margin-right:5px; */ height:60px ;
+    position: relative;
+    bottom:22px;
+    left:300px;
+    border-radius: 15px;
+    border: none;
+    
+ }
+ #loc {
+    font-size: 1.4rem;
+    position:relative;
+    left:365px;
+    bottom:18px;
+    z-index: 2;
+    color: #FF5200;
+
+ }
+ #s{
+    z-index: 2;
+    font-size:1.2rem;
+    position: relative;
+    left:790px ;
+    bottom:20px ;
+    color: gray;
+ }
+ #l{
+     height:60px ;
+    width:32%;
+    position: relative;
+    bottom:22px;
+    left:300px;
+    border-radius: 15px;
+    border: none;
+ }
+ #loc2{
+    position: relative;
+    left:620px ;
+    z-index: 2;
+    bottom:20px;
+    font-size: 1.2rem;
+ }
+ .line{
+    height:15px;
+    width:80%;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom:120px;
+    left: 145px;
+    background-color: white;
+    border: none;
+ }
+ #lefta{
+    position: relative;
+    bottom: 135px;
+    left:148px;
+    color: gray;
+ }
+ #righta{
+    position: relative;
+    bottom: 135px;
+    left:86.5%;
+    color: gray;
+ }
+ /*food*/
+ .food{
+    height: 90vh;
+    width: 100%;
+    margin-top:8%;
+ }
+ .food1{
+    height:60% ;
+    width:120vw ;
+    display: grid;
+    grid-template-columns:repeat(10,1fr) ;
+    grid-template-rows:repeat(2,1fr) ;
+ }
+ .option{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+ #arr1{
+    position: relative;
+    left: 94%;
+    
+    background-color:rgba(119, 136, 153, 0.492);
+    border-radius: 50%;
+    padding:8px;
+    color: gray;
+     
+ }
+ #arr2{
+    position: relative;
+    
+    left: 94.5%;
+    background-color:rgba(119, 136, 153, 0.579);
+    border-radius: 50%;
+    padding:8px;
+    rotate: 180deg;
+    /* color: gray; */
+ }
+ .food h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ .instamart{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    bottom:50px;
+
+ }
+ .food2{
+    height:26%;
+    width:150vw;
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    
+ }
+ .option1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+ }
+ .option1 p{
+    position: relative;
+    top: 105%;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .instamart h2{
+
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ position: relative;
+ bottom:30px;
+
+ }
+ #arrr1{
+     position: relative;
+    left: 94%;
+    bottom:15px;
+    
+    background-color:rgba(119, 136, 153, 0.492);
+    border-radius: 50%;
+    padding:8px;
+    color: gray;
+ }
+ #arrr2{
+    position: relative;
+    
+    left: 94.5%;
+    bottom: 15px;
+    background-color:rgba(119, 136, 153, 0.579);
+    border-radius: 50%;
+    padding:8px;
+    rotate: 180deg;
+ }
+
+ /*resturent*/
+ .resturent{
+    height:40vh;
+    width:80%;
+    position: relative;
+    bottom:295px;
+ }
+ .hotel{
+    height:15%;
+    width:90vw;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(1,1fr) ;
+    gap: 20px;
+    margin-left:12%;
+    
+    
+    
+
+
+}
+.hotl{
+    border:  1px solid gainsboro;
+    border-radius: 15px;
+    height:80%;
+}
+.hotl img{
+    height: 50%;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 2px 5px 10px black;
+    
+}
+.hotl p{
+    font-size: 1.3rem;
+    position: relative;
+    bottom:35px;
+    left:10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.hotl i{
+    position: relative;
+    bottom:55px;
+    left:85%;
+    color: white;
+    padding: 5px;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 0.5rem;
+}
+#rating{
+    /* color: black; */
+    font-size: 1rem;
+    position: relative;
+    bottom:73px;
+    left: 93%;
+    
+}
+#top{
+   color: gray;
+   font-size:0.9rem;
+   font-family: none;
+   position: relative;
+   bottom:50px;
+}
+#top1{
+   color: grey;
+   font-size: 0.9rem;
+   font-family: none;
+   position: relative;
+   bottom:15%;
+   
+
+}
+#low{
+color: grey;
+font-size: 0.9rem;
+font-family: none;
+position: relative;
+left:75%;
+bottom:25%;
+}
+#low1{
+   color:gray;
+   font-size: 0.9rem;
+   font-family: none;
+   position: relative;
+   bottom: 25%;
+   left:87% ;
+}
+.fst_div{
+    height:35px;
+    width:90%;
+
+    position: relative;
+    bottom:75px;
+    left: 15px;
+    border-radius:10px;
+    background-color: #1BA672;
+
+}
+.snd_div{
+    height:35px ;
+    width:90%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 15px;
+    bottom:55px ;
+    border-radius: 10px;
+    background-color:#1ba6735f;
+    
+}
+.fst_div img{
+    height:25px;
+    width: 25px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border-radius: 50px;
+    box-shadow: none;
+}
+#fd1{
+    font-family: none;
+    color: black;
+    /* font-size: none; */
+    position: relative;
+    left:35px;
+    padding-top: 13px;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+#fd2{
+    color: black;
+    font-family: none;
+    font-size: 0.9rem;
+    position: relative;
+    left: 80%;
+    bottom:55px;
+    color: white;
+}
+#ld{
+
+    font-family: none;
+    position: relative;
+    top:6px;
+    color:#1BA672 ;
+    
+}
+.resturent h2{
+    position: relative;
+    left:12%;
+    bottom:30px;
+}
+.app-pic{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    bottom:100px;
+}
+.app-pic img{
+    height: 42vh;
+    width: 100%;
+}
+.cities-with-fooddelivery{
+    height:40vh;
+    width: 100%;
+    position: relative;
+    /* bottom: 250px; */
+    left: 200px;
+}
+.cities{
+    height:30vh;
+    width:70%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.city{
+    border: 1px solid rgb(220, 217, 217);
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cities-with-fooddelivery h2{
+    position: relative;
+    bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cities-with-grocery{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    /* bottom:600px; */
+    left: 200px;
+}
+.grocery{
+    height: 30vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+
+
+}
+.item{
+    border: 1px solid rgb(220, 217, 217);
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 0.9rem;
+}
+.cities-with-grocery h2{
+     position: relative;
+    bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*footer*/
+
+.maiin{
+    height:79vh;
+    width: 100%;
+    background-color: #F0F0F5;
+    position: relative;
+    /* bottom: 500px; */
+}
+.m1{
+    height: 60vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.m2{
+    height:18vh ;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    
+    
+}
+#appstore{
+    position: relative;
+    left:20px;
+}
+#playstore{
+    position: relative;
+    left:40px;
+}
+.m2 h2{
+    color:#02060CBF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.o{
+    height:60vh;
+    width: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 18px;
+    position: relative;
+    top:11%;
+    left:2.5%
+    
+
+
+}
+.o1 img{
+      height: 6.5vh;
+      width: 10vw;
+      color: c#FF5200;
+      position: relative;
+      right:150px;
+      bottom: 2%;
+    
+}
+.ol{
+     height:60vh;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+.o a{
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    /* font-size: 1.2em; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.i1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.i1 a{
+    text-decoration: none;
+       color:rgb(68, 67, 67);
+    /* font-size: 1.2em; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.o p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.o select{
+      height:30px;
+      width:110px;
+      border-radius:8px;
+      background-color: #F0F0F5;
+      border:0.5 solid rgba(128, 128, 128, 0.597);
+    
+}
+.o select option{
+    color: gray;
+}
+pre{
+    position: relative;
+    right: 150px;
+    font-size:1rem;
+     color:rgb(68, 67, 67);
+     bottom: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    width: 90%;
+    position: relative;
+    left:80px;
+    top:450px;
+    z-index: 3;
+}
+#playstore:hover{
+   width: 205px;
+   height:70px;
+   transition:all 1s linear;
+}
+#appstore:hover{
+    width: 205px;
+    height: 70px;
+    transition: all 1s linear;
+}
+.i2 i{
+    color: rgb(55, 54, 54);
+}
+#show1,#show2{
+  position: relative;
+  left:390%;
+  bottom: 50px;
+}
+#show1,#show2 i{
+   color: #FF5200;
+}
+#show2,#show1 i{
+    color: #FF5200;
+}
+
