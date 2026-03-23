@@ -718,3 +718,16 @@ hr{
     color: #FF5200;
 }
 
+
+/*-----------------------------------------------------------Responsive-------------------------------------------------*/
+
+
+@media screen and (max-width:455px){
+    .nav{
+        height:16vh ;
+        width: 455px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
